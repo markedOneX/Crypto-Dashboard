@@ -1,0 +1,84 @@
+@import url("https://fonts.googleapis.com/css2?family=Dongle:wght@300&family=Montserrat:wght@200&family=Outfit:wght@300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Dongle:wght@300&family=Montserrat:wght@200&family=Outfit:wght@300&display=swap");
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "Dongle", sans-serif;
+  font-family: "Montserrat", sans-serif;
+  font-family: "Outfit", sans-serif;
+  color: rgb(255, 255, 255);
+}
+body {
+  background: #0f0c29; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to right,
+    #24243e,
+    #302b63,
+    #0f0c29
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to right,
+    #24243e,
+    #302b63,
+    #0f0c29
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+/* .container .row,
+.coin-search,
+.col {
+  border: 2px solid red;
+} */
+
+.coin-search {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 50%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 4rem;
+  margin-top: 1rem;
+  padding: 10px;
+}
+img {
+  width: 30px;
+  height: 30px;
+}
+.coinrow {
+  padding: 0;
+  padding-top: 10px;
+}
+h1 {
+  color: rgb(223, 223, 223);
+  font-family: "Dongle", sans-serif;
+  font-family: "Montserrat", sans-serif;
+  font-family: "Outfit", sans-serif;
+  letter-spacing: 5px;
+  margin-bottom: 1rem;
+}
+h5 {
+  font-size: 20px;
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 2rem;
+}
+.col > p {
+  text-align: center;
+}
+.red {
+  color: rgb(255, 74, 74);
+  font-weight: bold;
+}
+.green {
+  color: rgb(56, 228, 56);
+  font-weight: bold;
+}
+label {
+  font-weight: bold;
+  align-items: center;
+  display: flex;
+  padding: 10px;
+}
